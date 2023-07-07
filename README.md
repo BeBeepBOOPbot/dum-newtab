@@ -7,5 +7,5 @@ i tried to make the obot look somewhat like a gundam lol
 
 i will update this if i feel like it but dont expect that cause its mainly for my personal use
 
-##credits
+## credits
 [catppuccin](https://github.com/catppuccin/catppuccin) i used this at a color theme
