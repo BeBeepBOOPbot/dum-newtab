@@ -1,7 +1,7 @@
 :root {
 
     --background: #1e1e2e;
-    --background-2: #313244b6;
+    --background-2: #313244;
     --text: #cdd6f4;
     --text-2: #9399B2;
 
@@ -114,7 +114,7 @@ svg {
 .profile {
     grid-row: span 2;
     background: var(--background-2);
-    backdrop-filter: blur(1px);
+/*     backdrop-filter: blur(1px); */
     width: 256px;
     border-radius: 12px;
     display: flex;
@@ -136,7 +136,7 @@ svg {
 /* search */
 .search {
     background: var(--background-2);
-    backdrop-filter: blur(1px);
+/*     backdrop-filter: blur(1px); */
     border-radius: 12px;
     padding: 8px 64px;
     position: relative;
@@ -174,7 +174,7 @@ form {
 
 .links {
     background: var(--background-2);
-    backdrop-filter: blur(1px);
+/*     backdrop-filter: blur(1px); */
     border-radius: 12px;
     padding: var(--text-size-clock);
     width: max-content;
