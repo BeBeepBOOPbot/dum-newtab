@@ -15,7 +15,7 @@
         <img alt="Static Badge" src="https://img.shields.io/badge/beBeepBOOPbot-beBeepBOOPbot?style=for-the-badge&logo=github&labelColor=343449&color=60af7d">
     </a>
 </p>
-------------------------
+
 <img src="preview.png"> <br>
 this is just a simple newtab page i made. this is a refined version of the lastone i made
 moving some elements around and making stuff simpler and better. i can still improve this but 
