@@ -1,41 +1,27 @@
-function Time12() {
-    let date = new Date(); 
-    let hh = date.getHours();
-    let mm = date.getMinutes();
-    let session = "AM";
-  
-    if(hh === 0){
-        hh = 12;
-    }
-    if(hh > 12){
-        hh = hh - 12;
-        session = "PM";
-     }
-  
-     hh = (hh < 10) ? "0" + hh : hh;
-     mm = (mm < 10) ? "0" + mm : mm;
-      
-     let time = hh + ":" + mm + " " + session;
-  
-    document.getElementById("clock12").innerText = time; 
-    // let t = setTimeout(function(){ Time12() }, 1000);
-  }
+setInterval(clock, 1000);
 
-Time12();
-
-function Time24() {
+function clock() {
   let date = new Date(); 
   let hh = date.getHours();
   let mm = date.getMinutes();
+  am_pm = "AM";
+
+  if (hh >= 12) {
+    if (hh > 12) hh -= 12;
+    am_pm = "PM";
+} else if (hh == 0) {
+    hr = 12;
+    am_pm = "AM";
+}
 
    hh = (hh < 10) ? "0" + hh : hh;
    mm = (mm < 10) ? "0" + mm : mm;
     
-   let time = hh + ":" + mm;
+   let time = hh + ":" + mm + " " + am_pm;
 
-  document.getElementById("clock24").innerText = time; 
-  // let t = setTimeout(function(){ Time24() }, 1000); 
-
+  document.getElementById("clock").innerText = time; 
+  let t = setTimeout(function(){ clock() }, 1000); 
 }
 
-Time24();
+clock();
+

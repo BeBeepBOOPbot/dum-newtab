@@ -186,6 +186,20 @@ img {
     gap: clamp(1.25rem, -0.8125rem + 1.7188vw, 1.9375rem);
     min-width: 128px;
 }
+
+
+@media (max-width: 1248px) {
+
+    .filler {
+        display: none;
+    }
+
+    .links {
+        grid-column: span 2;   
+        padding-inline: var(--gap-32-48);     
+    }
+}
+
 /*  
 art from asciiart.eu
 
