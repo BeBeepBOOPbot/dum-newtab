@@ -9,3 +9,7 @@ i will update this if i feel like it but dont expect that cause its mainly for m
 
 ## credits
 [catppuccin](https://github.com/catppuccin/catppuccin) | i used this as a color theme
+
+
+
+<h1>DUM NewTab</h1>
